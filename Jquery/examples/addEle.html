@@ -1,0 +1,18 @@
+<html>
+<head>
+<script src="js/jquery-2.1.3.js"></script>
+<script>
+function appendText()
+{
+	var t1 = "<p>Text1</p>";	//Creating text with html
+	var t2 = $("<p></p>").text("Text2");  //with jquery
+	var t3 = document.createElement("p");
+	t3.innerHTML = "Text3";				// with DOM
+	$("body").append(t1,t2,t3);			//Appending text
+}
+</script>
+</head>
+<body>
+<button onclick="appendText()">Append Text</button>
+</body>
+</html>
