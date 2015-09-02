@@ -1,0 +1,8 @@
+A) Why was Python created in the first place?
+http://effbot.org/pyfaq/why-was-python-created-in-the-first-place.htm
+
+- Python language was created by Guido van Rossum during 1985- 1990.
+- ABC group at CWI is the origin of many Python features.
+- Modula-3 is the origin of the syntax and semantics used for exceptions, and some other Python features.
+- Rossum had some complaints for ABC programming language and also it was not extensible(major issue).
+- Due to this, python (extensible, interpreted, interactive, object-oriented, and high-level programming language) came into existence in 1989.
