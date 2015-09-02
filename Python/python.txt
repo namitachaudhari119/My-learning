@@ -6,3 +6,8 @@ http://effbot.org/pyfaq/why-was-python-created-in-the-first-place.htm
 - Modula-3 is the origin of the syntax and semantics used for exceptions, and some other Python features.
 - Rossum had some complaints for ABC programming language and also it was not extensible(major issue).
 - Due to this, python (extensible, interpreted, interactive, object-oriented, and high-level programming language) came into existence in 1989.
+
+1) Python is interpreted: Code not needed to compile before executing.
+2) Python is Interactive: Enter to Python prompt and write programs and interact with interpreter.
+3) Python is Object-Oriented: supports OOPS(encapsulating code within objects).
+4) Python is a Beginner's Language: Easy for new learners.
