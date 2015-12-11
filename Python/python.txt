@@ -11,3 +11,13 @@ http://effbot.org/pyfaq/why-was-python-created-in-the-first-place.htm
 2) Python is Interactive: Enter to Python prompt and write programs and interact with interpreter.
 3) Python is Object-Oriented: supports OOPS(encapsulating code within objects).
 4) Python is a Beginner's Language: Easy for new learners.
+
+B) Python features: (http://www.tutorialspoint.com/python/python_overview.htm)
+1) Easy to learn, read and maintain.
+2) A broad standard library  - portable and platform compatible.
+3) Interactive mode
+4) Portable - run on variety of hardware platforms and same UI on all
+5) Extendable
+6) Databases - provides interfaces to DB
+7) GUI Programming - supports GUI applications.
+8) Scalable - better structure and support for large programs
