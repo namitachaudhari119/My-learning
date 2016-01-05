@@ -1,4 +1,4 @@
-A) Why was Python created in the first place?
+# Why was Python created in the first place?
 http://effbot.org/pyfaq/why-was-python-created-in-the-first-place.htm
 
 - Python language was created by Guido van Rossum during 1985- 1990.
@@ -12,7 +12,7 @@ http://effbot.org/pyfaq/why-was-python-created-in-the-first-place.htm
 3) Python is Object-Oriented: supports OOPS(encapsulating code within objects).
 4) Python is a Beginner's Language: Easy for new learners.
 
-B) Python features: (http://www.tutorialspoint.com/python/python_overview.htm)
+# Python features: (http://www.tutorialspoint.com/python/python_overview.htm)
 1) Easy to learn, read and maintain.
 2) A broad standard library  - portable and platform compatible.
 3) Interactive mode
@@ -21,3 +21,52 @@ B) Python features: (http://www.tutorialspoint.com/python/python_overview.htm)
 6) Databases - provides interfaces to DB
 7) GUI Programming - supports GUI applications.
 8) Scalable - better structure and support for large programs
+
+# Python Exception Handling:
+1) Exception Handling : An exception is an event, which occurs during the execution of a program that disrupts the normal flow of the program's instructions. Python object that represents error.
+
+A)
+try:
+   You do your operations here;
+   ......................
+except ExceptionI:
+   If there is ExceptionI, then execute this block.
+except ExceptionII:
+   If there is ExceptionII, then execute this block.
+   ......................
+else:
+   If there is no exception then execute this block. 
+
+B) The except Clause with No Exceptions:
+try:
+   You do your operations here;
+   ......................
+except: (Catches all types of exceptions)
+   If there is any exception, then execute this block.
+   ......................
+else:
+   If there is no exception then execute this block. 
+   
+C) The except Clause with Multiple Exceptions:   
+try:
+   You do your operations here;
+   ......................
+except(Exception1[, Exception2[,...ExceptionN]]]):
+   If there is any exception from the given exception list, 
+   then execute this block.
+   ......................
+else:
+   If there is no exception then execute this block.
+   
+D) The try-finally Clause:
+try:
+   You do your operations here;
+   ......................
+   Due to any exception, this may be skipped.
+finally:
+   This would always be executed.
+   ......................
+
+*Can provide except clause(s), or a finally clause, but not both. You cannot use else clause as well along with a finally clause.
+   
+2) Assertions : An assertion is a sanity-check that you can turn on or turn off when you are done with your testing of the program.
