@@ -68,5 +68,19 @@ finally:
    ......................
 
 *Can provide except clause(s), or a finally clause, but not both. You cannot use else clause as well along with a finally clause.
+
+E) Argument of an Exception: An exception can have an argument, which is a value that gives additional information about the problem. The variable can receive a single value or multiple values in the form of a tuple. This tuple usually contains the error string, the error number, and an error location
+try:
+   You do your operations here;
+   ......................
+except ExceptionType, Argument:
+   You can print value of Argument here...
+   
+F) Raising an Exceptions: 
+raise [Exception [, args [, traceback]]] where Exception is exception name, args is optional, if not passed its none and traceback is optional, if used it is traceback object.
+To catch a raised exception, an "except" clause must refer to the same exception thrown either class object or simple string.
+
+G) User-Defined Exceptions:
+
    
 2) Assertions : An assertion is a sanity-check that you can turn on or turn off when you are done with your testing of the program.
