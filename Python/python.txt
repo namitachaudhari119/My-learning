@@ -81,6 +81,5 @@ raise [Exception [, args [, traceback]]] where Exception is exception name, args
 To catch a raised exception, an "except" clause must refer to the same exception thrown either class object or simple string.
 
 G) User-Defined Exceptions:
-
    
 2) Assertions : An assertion is a sanity-check that you can turn on or turn off when you are done with your testing of the program.
