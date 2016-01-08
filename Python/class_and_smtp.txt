@@ -41,3 +41,22 @@ class C(A, B):   # subclass of A and B
 - Python protects private members by internally changing the name to include the class name which can be accessed as "object._className__attrName"
 
 **************SMTP*******************
+# Creating SMTP object:
+import smtplib
+
+smtpObj = smtplib.SMTP( [host [, port [, local_hostname]]] )
+where host = ip addr or hostname (optional)
+	  port = usually 25
+	  local_hostname = If SMTP server running on local, then give value as localhost
+- SMTP obj has a method sendmail(sender, receivers, message)
+where sender - addrs of sender
+	  receivers -  list or string for recipient
+	  message - String message
+	  
+# Sending an HTML e-mail using Python: 
+- Python can send an HTML message	  
+- Specify a Mime version, content-type and character set
+
+# Sending Attachments as an E-mail:
+- Set "Content-type" to "multipart/mixed". Text and attachment sections can be specified within "boundaries"
+- Attached files should be encoded in base64 format
