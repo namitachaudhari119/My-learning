@@ -1,0 +1,8 @@
+************** Database Access ******************
+# Database access:
+- The Python standard for database interfaces is the Python DB-API.
+- For mysql, MYSQLdb is an interface. It implements DB API v2.0 built on top of MYSQL C API
+
+# Creating Database Table
+
+# INSERT Operation: Executes SQL INSERT statement to create a record
