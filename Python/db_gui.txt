@@ -6,3 +6,21 @@
 # Creating Database Table
 
 # INSERT Operation: Executes SQL INSERT statement to create a record
+
+# Performing Transactions: Ensures data consistency.
+- Atomicity: Either a transaction completes or nothing happens at all
+- Consistency: Transaction start and leave the system in consistent state
+- Isolation: Intermediate results of current transaction are not visible outside it
+- Durability: After transaction commit, effects are constant even after system failure
+
+# Commit operation:
+- Finalize the changes and save it into db
+- After this, no changes can be reverted
+
+# Rollback operation:
+- Used to revert any changes
+
+# Disconnecting Database:
+- After disconnecting the connection, transactions gets rollbacked.
+
+************** GUI Programming ******************
