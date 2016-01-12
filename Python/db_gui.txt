@@ -24,3 +24,6 @@
 - After disconnecting the connection, transactions gets rollbacked.
 
 ************** GUI Programming ******************
+- Tkinter: Interface to the Tk GUI toolkit and standard GUI lib
+- wxPython: Open-source interface for wxWindows
+- JPython: Scripts which gives access to Java class libraries
