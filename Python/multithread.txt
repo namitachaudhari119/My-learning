@@ -1,0 +1,23 @@
+****************Multithreading*************
+- Multiple threads within a process share the same data space with the main thread and so they can share information or communicate with each other more easily
+- Called light-weight processes and do not require much memory overhead
+- A thread has a beginning, an execution sequence, and a conclusion
+  > It can be interrupted
+  > It can temporarily be put on hold (sleep) while other threads are running - yielding
+
+# Starting a new thread:
+- thread.start_new_thread ( function, args[, kwargs] )
+- The thread calls the function with passes args and when func returns the thread exits
+
+# The Threading Module:(introduced in python 2.4)
+- The threading module has the 'Thread' class that implements threading
+- Methods provided by Thread class:
+  > run() - entry point for thread
+  > start() - starts a thread by calling the run()
+  > join([time]) - waits for threads to terminate
+  > isAlive() - checks thread is alive
+  > getName() - returns name of thread
+  > setName() - sets name of thread
+  
+# Creating Thread Using Threading Module:
+  
