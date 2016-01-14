@@ -20,4 +20,19 @@
   > setName() - sets name of thread
   
 # Creating Thread Using Threading Module:
-  
+- define subclass of Thread class
+- Override __init__(self[,args])
+ 
+# Synchronizing Threads:
+- Lock(): returns a new lock
+- acquire(blocking) of new lock object: blocking param is optional.
+  > if blocking = 1, thread blocks else runs with blocking value as 0
+- release() of new lock object: release the lock
+
+# Multithreaded Priority Queue:
+- Queue module has following functions:
+  > get(): Removes and returns an item
+  > put(): adds items
+  > qsize(): total no of items 
+  > empty(): checks if queue is empty
+  > full(): checks if queue is full
