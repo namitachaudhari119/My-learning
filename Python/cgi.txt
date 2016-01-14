@@ -1,0 +1,10 @@
+******************Common Gateway Interface(CGI) Programmaing***********************
+# What is CGI?
+- CGI is set of standards which defines how info is exchanged between web server such as HTTP servers and custom script
+- Currently CGI/1.1 is used
+- Whenever a file in certain dir is requested, instead of returning that file a program can be executed and it's response can be displayed on the browser.
+- CGI progs executed by HTTP server are kept in pre-defined dir /var/www/cgi-bin
+- Files have extension as .cgi but .py is also allowed
+- Content-type:text/html\r\n\r\n in the code is sent back to the browser and it specifies the content type to be displayed on the browser
+
+# 
