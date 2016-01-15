@@ -7,4 +7,13 @@
 - Files have extension as .cgi but .py is also allowed
 - Content-type:text/html\r\n\r\n in the code is sent back to the browser and it specifies the content type to be displayed on the browser
 
-# 
+# Passing Information using GET method:
+- eg: http://www.test.com/cgi-bin/hello.py?key1=value1&key2=value2
+- GET default method to pass info from browser to web server
+- Has size limitation 1024 characters only
+- Sends info using QUERY_STRING header and it will be accessible in cgi program using same header
+
+# Passing Information Using POST Method:
+- info is sent as separate message
+
+# Using cookies in CGI:
