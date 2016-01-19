@@ -17,3 +17,17 @@
 - info is sent as separate message
 
 # Using cookies in CGI:
+- HTTP protocol is stateless
+- Cookies are a plain text data record of 5 variable-length fields:
+ > Expires(Optional): date when cookie will expire. If blank, cookie will expire when browser quits
+ > Domain(Optional): domain name of site
+ > Path(Optional): path to webpage that sets the cookie
+ > Secure: If the field contains the word "secure" then the cookie can be retrieved only through secure server
+ > Name=Value: Cookies set and retrieved in key-value pair
+ 
+# Setting up Cookies:
+- Cookies are sent along with HTTP header before Content-Type
+- Set-Cookie HTTP header is used to set cookie
+
+# Retrieving cookies:
+- Cookies are stored in HTTP_COOKIE variable
