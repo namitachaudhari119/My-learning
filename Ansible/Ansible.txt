@@ -1,0 +1,6 @@
+- Ansible is a configuration management and provisioning tool
+- It uses SSH to connect to servers and run the configured Tasks.
+- Covert bash scripts into ansible scripts
+- Automates the process of getting context and handles most edge cases
+- Ansible Tasks are idempotent.
+- Ansible uses "Facts", which is system and environment information it gathers ("context") before running Tasks.

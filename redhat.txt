@@ -1,0 +1,22 @@
+- ssh@servera.pod1.example.com
+- compute node install blade servers(powers require to start VMs)
+- cloud-resource-calculator - A tool to help with cloud capacity planning.
+- public n/w is always created by admin and sets it as public. All projects can see that
+- 1:19 cpu ratio
+- 1GB : 1.5GB RAM ratio
+- 35357(internal) of keystone will be used for admin with its token
+- 5000(public) of keystone will be used for admin with its cred
+- internal services should not talk on 35357
+- if any service is not configured properly, the user will be blocked
+- The token does not know about the new api and hence its catalog doesn't contain it. So need to login/logout from UI after adding new service
+- SAN(storage area network): dedicated high speed n/w that interconnects and presents shared pools of storage devices to muliple servers.
+- cinder Api speaks to scheduler and it speaks to volume
+- can add 32 controllers
+- calica, tracker(NFV architecture), kuryr (container n/w), manila(share filesystem), opendaylight, openNFV > new projects in terms of neutron
+- Mantl cisco project
+- nova instances should be chosen based on all AMD or Intel not both
+- RRDTool used at backend to convert actual data to human readable format.
+- cacti used to display the usage data in graphical format
+- Wake-up-LAN(WOL)
+
+kvm is bare metal where as qmeu is emulated stuff

@@ -1,0 +1,6 @@
+**************Regular Expression*******************
+
+re.match(pattern, string, flags=0)
+- pattern: regular expression to be matched
+- string : which would be searched to match the pattern at the beginning of string
+- 
